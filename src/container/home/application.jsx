@@ -163,8 +163,12 @@ class ApplicationContainer extends React.Component {
                     <div  className={styleHome.text}>{data.question ? data.question : 'N/A'}</div>
                     <div className={styleHome.headline}>Comments</div>
                     <div  className={styleHome.text}>{data.comments !== {} && data.comments.comment ? data.comments.comment : 'N/A'}</div>
-                    <input className={styleHome.inputS} type={'text'} value={this.state.commentList[index].comment} onChange={(e) => this.handleComment(e, data.id, index)} />
-                    <div className={styleHome.btn} onClick={() => this.submitComment(data.id, data.comments, index)}>submit</div>
+                    <input className={styleHome.inputS} type={'text'}
+                           value={this.state.commentList[index].comment}
+                           onChange={(e) => this.handleComment(e, data.id, index)}
+                           placeholder={'Please write a comment'}
+                    />
+                    <div className={styleHome.btn} onClick={() => this.submitComment(data.id, data.comments, index)}>Save</div>
                 </li>
             )
         }) : <div className={styleHome.defaultText}>Sorry, this information is not available.</div> ;

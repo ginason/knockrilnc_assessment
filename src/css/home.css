@@ -80,11 +80,12 @@ ul, li {
     color: #999;
 }
 
-.applicationContainer ul .applicationList .inputS{
+.applicationContainer ul .applicationList .inputS {
     height: 30px;
     width: 100%;
     border: 1px solid #d3d3d3;
     outline: none;
+    text-indent: 10px;
 }
 .applicationContainer ul .applicationList .btn {
     font-size: 18px;
