@@ -1,11 +1,11 @@
-##How to run the app
+## How to run the app
 You need to use two terminal to run two server.
 Open http://localhost:8080 to view it in the browser.
 
 1. npm start
 2. npm run apiserver
 
-##Question
+## Question
 * How did you decide which technologies to use as part of your solution?
 
 >All the technologies (programming language) that I decided to use as part of my solution was based on previous projects and self taught lessons. I am using Reactjs at work because reactjs is a very useful javascript framework for applications which has a faster web page load speed, code reusability, and SEO friendly.
