@@ -1,5 +1,5 @@
 ## How to run the app
-You need to use two terminal to run two server.
+You need to use two terminal to run two servers.
 Open http://localhost:8080 to view it in the browser.
 
 1. npm start
